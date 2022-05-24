@@ -1,13 +1,12 @@
 void main() {
-  //if else && else if statement
+  // if else && else if statement
   // const age = 23;
-  // if (age > 20 && age < 23) {
+  // if (age > 20 && age < 23)
   //   print("You are teanager");
-  // } else if (age > 21 && age <= 23) {
+  // else if (age > 21 && age <= 23)
   //   print("You are not teanager");
-  // } else {
+  // else
   //   print("Just get Lost");
-  // }
 
   //Ternary operator
   // const age = 23;

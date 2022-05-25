@@ -39,4 +39,10 @@ void main() {
   // // String UpperCase = name.trim();
   // print(name.runtimeType);
   print("Result: ${5 < 9 && (1 <= 2 || 3 > 0)}");
+  // int? a; // The initial value of a is null.
+  // a ??= 3;
+  // print(a); // <-- Prints 3.
+
+  // a ??= 5;
+  // print(a);
 }

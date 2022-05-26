@@ -1,10 +1,10 @@
 void main() {
   //List in Dart
-  final List<String> numbers = ["123", "455", "1990", "2780", "23461"];
+  final List<String> numbers = ["1237", "4559", "1990", "2780", "23461"];
   final List<String> names = ['khan', 'jan', 'shah'];
   names.add("Ali\n");
   names.addAll(numbers);
-  final find = names.map((e) => e.length);
+  final find = names.map((e) => e);
   print(find);
   print(names);
   print(names.length);

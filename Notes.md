@@ -16,15 +16,19 @@ Arguments are the values that we pass to the function
 Parameters is the definition of the values which we pass in the function definition
 # Functions
 Function are "self contained" modules of code that are specific task. It hold our logic
+# Optional Parameter
+Optional Parameter is that the caller isn't required to specify a value for the parameter when calling the function.
 # Prefix
 The value is incremented first, then returned.
 # Postfix
 The value is returned, then incremented.
 # List
-A series of things that are similar to each other or list is simply an ordered group of objects. In C++ we use array but in dart we use list. List also dynamic. List are homogenous things. In list we should add another list. If we use maps in the list it can pick one by one elements from the list
+A series of things that are similar to each other or list is simply an ordered group of objects. In C++ we use array but in dart we use list. List also dynamic. List are homogenous things. In list we should add another list. If we use maps in the list it can pick one by one elements from the list of items.
 # Sets
 A collection of objects in which each object can occur only once. It is an unordered collection of unique items. Dart is provided by set literals and the Set type. Sets are unique things. In set we can't add another set of any data and if we use any value so we can't use that duplicate value.
 # Maps
 Maps are used to hold key-value pairs of information. Both keys and values can be any type of object. Each key occurs only once, but you can use the same value multiple times. It also a data structure.
 # Null Safety
-Null is a keyword in dart. In simple words it means a variable cannot contain a 'null' value unless you initialized with null to that variable. It is not a value it's a absence of the value. In list if we use null so we use null in data type after and also use before in the variable
+Null is a keyword in dart. In simple words it means a variable cannot contain a 'null' value unless you initialized with null to that variable. It is not a value it's a absence of the value. In list if we use null so we use null in data type after and also use before in the variable.
+# Cherry Picking non_nullable values
+It can be used when the left side is null so it print right side value. We use this on if else statement and it will shorten your code a lot. 

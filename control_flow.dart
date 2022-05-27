@@ -55,8 +55,4 @@ void main() {
   print(Menu.values[0].name);
 }
 
-enum Menu {
-  home,
-  aboutus,
-  contact,
-}
+enum Menu { home, aboutus, contact }

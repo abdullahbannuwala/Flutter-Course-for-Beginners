@@ -16,8 +16,8 @@ Arguments are the values that we pass to the function
 Parameters is the definition of the values which we pass in the function definition
 # Functions
 Function are "self contained" modules of code that are specific task. It hold our logic
-# Optional Parameter
-Optional Parameter is that the caller isn't required to specify a value for the parameter when calling the function.
+# Optional Position Parameter
+Optional Parameter is that the caller isn't required to specify a value for the parameter when calling the function. It's Syntax was [].
 # Prefix
 The value is incremented first, then returned.
 # Postfix
@@ -30,5 +30,21 @@ A collection of objects in which each object can occur only once. It is an unord
 Maps are used to hold key-value pairs of information. Both keys and values can be any type of object. Each key occurs only once, but you can use the same value multiple times. It also a data structure.
 # Null Safety
 Null is a keyword in dart. In simple words it means a variable cannot contain a 'null' value unless you initialized with null to that variable. It is not a value it's a absence of the value. In list if we use null so we use null in data type after and also use before in the variable.
-# Cherry Picking non_nullable values
-It can be used when the left side is null so it print right side value. We use this on if else statement and it will shorten your code a lot. 
+# Null Aware Operator
+We use ?? when you want to evaluate and return an expression if another expression resolves to null. It is also called the if-null operator and coalescing operator. The null-aware operator is ??, which returns the expression on its left unless that expression’s value is null. In which case it’s null it returns the expression on its right. It will be shorten our code.
+# Null Aware Assignment Operator or Null-Safe Operator
+It should be same as previous Null Aware Operator. It syntax was ??=.
+# Condition Invocation
+Its syntax was ?.  if the receiver is null then the property access on the right-hand side is skipped and the expression evaluates to null.
+# Break & Return
+Break is used to exit (escape) the for-loop, while-loop, switch-statement that you are currently executing. Return will exit the entire method you are currently executing (and possibly return a value to the caller, optional).
+# Enumeration
+It is named list of related items or making a string written programmatically so that it becomes an entity. The use case of enumeration is to store finite data members under the same type definition.
+# Classes
+A class is a data type that restricts access to its data to a set of procedures. Classes are grouping of various functionalities into one packagable piece of data. Every object is an instance of a class, and all classes except null descend from object.
+# Instance 
+Some functionality that is only available in the instance level that is not available at the person class level. But you have to make a copy of that class name.
+# Object
+An object is an instance of a class. The word instance and object are used interchangeably. Object are basic building  blocks. Data and methods are called members of an object.
+# Constructor 
+It allow you to create an instance of a class with optional parameter. A constructor is a special function of the class that is responsible for initializing the variables of the class. Dart defines a constructor with the same name as that of the class. A constructor is a function and hence can be parameterized.

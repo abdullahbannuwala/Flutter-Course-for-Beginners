@@ -10,7 +10,7 @@
 //   }
 // }
 
-//Optional Parameters
+//Optional Positional Parameters
 String EnterName(String firstName, [String? lastName]) {
   if (lastName == null) {
     return firstName;

@@ -58,4 +58,20 @@ Note: "Dart doesn't support multiple inheritance because it creates complexity i
 # Abstract class
 Abstract class is a class that groups logic into itself with the sole purpose of other classes using it's functionality. It is just like a normal class that can't be instantiated. use abstract keyword before a class.
 # Factory Constructor
-Factory constructors is initializing a final variable using logic that can’t be handled in the initializer list. Factory constructor doesn't necessarily have to return an instances of the same class it can acctually returns instance of another class. It is used in data parsing and jason serialization
+Factory constructors is initializing a final variable using logic that can’t be handled in the initializer list. Factory constructor doesn't necessarily have to return an instances of the same class it can acctually returns instance of another class. It is used in data parsing and jason serialization.
+# Future
+A Future is defined exactly like a function in Dart, but instead of Void you use Future. If you want to return a value from Future, then you pass it a Type.
+# Asynchronous (Async & Await)
+Async and Await keywords are used to provide a declarative way to define the asynchronous function and use their results. The async keyword is used when we want to declare a function as asynchronous and the await keyword is used only on asynchronous functions. Async means that a function internally can execute command that donot return imediately. 
+# Streams
+Streams are a source of asynchronous events delivered sequentially. It is like an asynchronous Iterable—where, instead of getting the next event when you ask for it, the stream tells you that there is an event when it is ready.
+# Gnerators
+Generator is a unique function that allows the user to produce a value sequence easily. Generators return values on demand when we try to iterate over them.
+1. Synchronous generator: Returns an iterable object (i.e., a collection of values or elements).
+2. Asynchronous generator: Returns a stream object (i.e., a method of receiving a series of events).
+# Generics
+In Dart, by default collections are heterogeneous. However, by the use of generics, we can make a collection to hold homogeneous values. The use of Generics makes the use of a single compulsory data type to be held inside the collection. To avoid re-writing a similar code.
+# Mixin
+Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.
+# Firebase
+Firebase is a tool which is used for backend and developed by Google for creating mobile and web applications.

@@ -1,64 +1,51 @@
-import 'classes.dart';
+// class HumanBeing {
+//   void eating() {
+//     print("They are eating");
+//   }
 
-/**class HumanBeing {
-  void eating() {
-    print("They are eating");
-  }
+//   void drinking() {
+//     print("They are drinking");
+//   }
+// }
 
-  void drinking() {
-    print("They are drinking");
+// //Inherit from parent class i.e. HumanBeing
+// class Men extends HumanBeing {
+//   void bathing() {
+//     print("They are bathing");
+//     super.eating();
+//   }
+// }
+
+// void main() {
+//   Men m = Men(); //m is the object of Men class
+//   m.eating();
+//   m.drinking();
+//   m.bathing();
+// }
+
+class Widget {}
+
+abstract class MyCustomWidget extends Widget {
+  String foo(String argName);
+}
+
+class Widget1 implements MyCustomWidget {
+  String foo(String argName) {
+    return argName;
   }
 }
 
-//Inherit from parent class i.e. HumanBeing
-class Men extends HumanBeing {
-  void bathing() {
-    print("They are bathing");
-  }
-}
-
-// Multiple Inheritance 
-class Women extends Men {
-  void cooking() {
-    print("She loves cooking");
-  }
-}
-
-void main() {
-  Women w = Women(); //m is the object of Men class
-  w.eating();
-  w.drinking();
-  w.bathing();
-}*/
-
-//Hierarical Class
-class Student {
-  void stdname(String name) {
-    print(name);
-  }
-
-  void stdage(int age) {
-    print(age);
-  }
-}
-
-class Hammad extends Student {
-  void stddept(String dept) {
-    print(dept);
-  }
-}
-
-class Khaleel extends Person {
-  void stdgrade(String grade) {
-    print(grade);
+class Widget2 implements MyCustomWidget {
+  String foo(String argName) {
+    return '$argName $argName';
   }
 }
 
 void main() {
-  Hammad h = Hammad();
-  h.stdname("Hammad");
-  h.stdage(34);
-  h.stddept("Computer Science");
-  Khaleel k = Khaleel();
-  k.stdgrade("A+");
+  Widget1 w = new Widget1();
+  Widget2 w2 = new Widget2();
+  var widgets = [w, w2];
+  for (int i = 0; i < widgets.length; i++) {
+    print(widgets[i].foo('hello ${i + 1}'));
+  }
 }

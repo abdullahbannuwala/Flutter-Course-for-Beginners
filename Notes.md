@@ -48,3 +48,14 @@ Some functionality that is only available in the instance level that is not avai
 An object is an instance of a class. The word instance and object are used interchangeably. Object are basic building  blocks. Data and methods are called members of an object.
 # Constructor 
 It allow you to create an instance of a class with optional parameter. A constructor is a special function of the class that is responsible for initializing the variables of the class. Dart defines a constructor with the same name as that of the class. A constructor is a function and hence can be parameterized.
+# Method
+Method is the collection of statements that consists of some characteristics to class object. It provides the facility to perform some operation and it can be invoked by using its name when we need in the program. In classes, All the methods declared with static keyword are termed as class method. They can't access non-static variables and can't invoke non-static methods of the class.
+# Inheritance 
+It aloow you to define a class  and then to add more functionality of that class into a new class. There is two classes 
+1. Parent class (A class which is inherited by the other class is called superclass or parent class. It is also known as a base class.)
+2. Child class (A class which inherits properties from other class is called the child class. It is also known as the derived class or subclass.)
+Note: "Dart doesn't support multiple inheritance because it creates complexity in the program."
+# Abstract class
+Abstract class is a class that groups logic into itself with the sole purpose of other classes using it's functionality. It is just like a normal class that can't be instantiated. use abstract keyword before a class.
+# Factory Constructor
+Factory constructors is initializing a final variable using logic that can’t be handled in the initializer list. Factory constructor doesn't necessarily have to return an instances of the same class it can acctually returns instance of another class. It is used in data parsing and jason serialization

@@ -27,3 +27,20 @@ void AnimalType(Animal animal) {
       break;
   }
 }
+
+// class Boy {
+//   final String name;
+
+//   Boy(this.name);
+// }
+
+// extension Run on Boy {
+//   void run() {
+//     print("The $name of voice is beautiful");
+//   }
+// }
+
+// void main() {
+//   final voice = Boy("Kavish");
+//   voice.run();
+// }

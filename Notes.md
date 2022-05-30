@@ -75,3 +75,7 @@ In Dart, by default collections are heterogeneous. However, by the use of generi
 Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.
 # Firebase
 Firebase is a tool which is used for backend and developed by Google for creating mobile and web applications.
+1. Firebase Core: It is the kernel of firebase.  provides access to the Firebase configuration and performs initialisation of the native Firebase App.
+2. Firebase Authentication: It is used for authentication where our users will able to register, login and logout to our application and also send their emails confirmation, password, phone number will be identify.
+3. Firebase Cloud Firestore: It is used for when we actually store all data of a logged in user in a firebase.Cloud Firestore caches data that your app is actively using, so the app can write, read, listen to, and query data even if the device is offline.
+4. Firebase Analytics: It is a tool that helps you understand how Android and iOS users are engaging with your application. Free analytics when user press button and which users can see.

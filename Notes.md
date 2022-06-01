@@ -59,6 +59,8 @@ Note: "Dart doesn't support multiple inheritance because it creates complexity i
 Abstract class is a class that groups logic into itself with the sole purpose of other classes using it's functionality. It is just like a normal class that can't be instantiated. use abstract keyword before a class.
 # Factory Constructor
 Factory constructors is initializing a final variable using logic that can’t be handled in the initializer list. Factory constructor doesn't necessarily have to return an instances of the same class it can acctually returns instance of another class. It is used in data parsing and jason serialization.
+# Late
+Late is a keyword which is used to declare variables that will be initialized later. These are called non-nullable variables as they are initialized after the declaration. Note: "Once we declare a non-nullable late variable, the variable can't be null at runtime".
 # Future
 A Future is defined exactly like a function in Dart, but instead of Void you use Future. If you want to return a value from Future, then you pass it a Type.
 # Asynchronous (Async & Await)
